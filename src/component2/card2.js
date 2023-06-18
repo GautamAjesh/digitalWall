@@ -8,6 +8,7 @@ import { Bookmark } from '@mui/icons-material';
 const Card = ({ name, imageSrc, content, onDelete, onEdit, onLike }) => {
     const [showMenu, setShowMenu] = useState(false);
     const [likeCount, setLikeCount] = useState(0);
+    const [bookmarked, setBookmarked] = useState(false);
     const [liked, setLiked] = useState(false);
     const handleLike = () => {
         if (liked) {
@@ -18,6 +19,10 @@ const Card = ({ name, imageSrc, content, onDelete, onEdit, onLike }) => {
             setLiked(true);
         }
     };
+
+    const handleBookmark = () => {
+        setBookmarked(!bookmarked);
+      };
 
 
     const handleMenuToggle = () => {
@@ -43,7 +48,10 @@ const Card = ({ name, imageSrc, content, onDelete, onEdit, onLike }) => {
             <div className="card2-header">
                 <h2 className="card2-name">{name}</h2>
                 <div className="card2-options">
-                     <Bookmark className="bookmark-icon" />
+                <Bookmark
+            className={`bookmark-icon ${bookmarked ? "active" : ""}`}
+            onClick={handleBookmark}
+          />
                      <button className="menu-button" onClick={handleMenuToggle}>
                         <FontAwesomeIcon icon={faEllipsisV} />
                     </button>

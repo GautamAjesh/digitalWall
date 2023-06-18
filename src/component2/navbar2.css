@@ -10,7 +10,7 @@
     z-index: 999;
 }
 
-.logo{
+.logo2{
    height:70px;
    width: 80px;
 }
@@ -39,8 +39,41 @@
     font-weight: 500;
   }
   
-  .search-icon{
-    height: 24px;
+  .search2-icon{
     width: 24px;
-    margin: 0 10px;
+  }
+
+  @media (max-width: 768px) {
+    .navbar-container {
+      flex-direction: row;
+      padding: 0.5rem;
+      height: 40px;
+    }
+
+    .logo2{
+      margin-top: 10px;
+      height:50px;
+      width: 60px;
+   }
+   .back-icon{
+    margin-top: 10px;
+   }
+  
+    .left2 {
+      margin-bottom: 1rem;
+    }
+  
+    .right2 {
+      flex-direction: row;
+      align-items: flex-start;
+    }
+  
+    .title {
+      font-size: 1.2rem;
+      margin-top: 20px;
+    }
+  
+    .search2-icon {
+      width: 20px;
+    }
   }

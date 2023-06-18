@@ -22,6 +22,7 @@ function Popup({onClose, onConfirm}){
 
 
     return (
+        <div className="container1">
         <div className="create-dashboard-popup">
             <div className='head'>
                 <h3>Add a name for your board</h3>
@@ -29,7 +30,7 @@ function Popup({onClose, onConfirm}){
                     <FontAwesomeIcon icon={faTimes} />
                 </button>
             </div>
-            <input className="title" type="text" id="title" name="title" value={title} onChange={handleTitleChange}/>
+            <input className="titleinput" type="text" id="title" name="title" value={title} onChange={handleTitleChange}/>
             <h3>Select post colour</h3>
             <text>Here are some templates to help you get started</text>
             <div className="color-options">
@@ -39,6 +40,7 @@ function Popup({onClose, onConfirm}){
                 <div className="color-option" style={{ backgroundColor: '#FFCC66' }} onClick={() => setColor('#FFCC66')}></div>
             </div>
             <button className="create-btn" type="button" onClick={handleConfirm}>Create board</button>
+        </div>
         </div>
     );
 }

@@ -9,7 +9,7 @@ const NavBar = () => {
             <div className="navbar-container">
                 <div className="left2">
                     <ArrowBack className="back-icon" />
-                    <img src={logoImage} alt="Logo" className="logo" />
+                    <img src={logoImage} alt="Logo" className="logo2" />
                     <h1 className="title">title</h1>
                 </div>
                 <div className="right2">
