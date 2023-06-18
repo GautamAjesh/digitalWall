@@ -7,13 +7,13 @@ const NavBar = () => {
     return (
         <nav>
             <div className="navbar-container">
-                <div className="left">
+                <div className="left2">
                     <ArrowBack className="back-icon" />
                     <img src={logoImage} alt="Logo" className="logo" />
                     <h1 className="title">title</h1>
                 </div>
-                <div className="right">
-                    <Search className="search-icon" />
+                <div className="right2">
+                    <Search className="search2-icon" />
                     <div className="line"></div>
                     <Bookmark className="bookmark-icon" />
                 </div>
