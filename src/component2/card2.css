@@ -1,0 +1,118 @@
+
+.card2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+
+  }
+
+  .card2-header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .card2-name{
+    padding-top: 5px;
+    padding-bottom: 0px;
+  }
+
+  .card2-options{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .head-date{
+    font-size: 12px;
+    color: grey;
+    margin-bottom: 20px;
+    
+  }
+  
+  .card2-image {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .card2-name {
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 0%;
+  }
+  
+  .card2-text {
+    margin-bottom: 10px;
+  }
+  
+  .card2-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .card2-buttons button {
+    padding: 5px 10px;
+    background-color: #fff;
+    border:none;
+    cursor: pointer;
+  }
+  
+  .card2-buttons button:hover {
+    background-color: #fff;
+  }
+
+  .heart-icon {
+    left :0px;
+    margin-top:5px;
+    height: 20px;
+    
+  }
+
+  .card2-options {
+    position: relative;
+  }
+  
+  .menu-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .menu-list {
+    position: absolute;
+    right: 0;
+    padding: 0;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    list-style: none;
+    z-index: 1;
+  }
+  
+  .menu-list li {
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+
+  .horizontal-line {
+    border-bottom: 2px solid blue;
+    width: 100%;
+  }
+  
+  
+
+  
+ 
+  
+  

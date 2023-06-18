@@ -1,0 +1,61 @@
+.create-dashboard-popup{
+    width: 40%;
+    height: 40%;
+    position: fixed;
+    margin-left:38%;
+    padding:20px;
+    width: 350px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.title{
+    padding: 4px;
+    font-size: 17px;
+    width: 97%;
+    margin-bottom: 40px;
+}
+
+h3{
+    margin-bottom:10px;
+}
+
+.color-options {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+  }
+
+.color-option {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.create-btn{
+    background-color: rgb(211,55,82);
+    color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10%;
+    margin-left: 70%;
+    height: 40px;
+    width: 100px;
+}
+.close-button{
+    background: none;
+    border:none;
+    color:#999;
+    font-size: 16px;
+}
